@@ -1,0 +1,114 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "姿色纸缘",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/cart/cart",
+      "style": {
+        "navigationBarTitleText": "姿色纸缘",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/community/community",
+      "style": {
+        "navigationBarTitleText": "姿色纸缘",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "姿色纸缘",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/cate/cate",
+      "style": {
+        "navigationBarTitleText": "姿色纸缘",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+        "path" : "pages/goodDetail/goodDetail",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "姿色纸缘",
+            "enablePullDownRefresh": false
+        }
+        
+    }
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    
+    "usingComponents": {
+      "van-search": "/wxcomponents/vant/search/index",
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-grid": "/wxcomponents/vant/grid/index",
+      "van-grid-item": "/wxcomponents/vant/grid-item/index",
+      "van-sidebar": "/wxcomponents/vant/sidebar/index",
+      "van-sidebar-item": "/wxcomponents/vant/sidebar-item/index",
+      "van-icon": "/wxcomponents/vant/icon/index",
+      "van-card": "/wxcomponents/vant/card/index",
+      "van-cell-group": "/wxcomponents/vant/cell-group/index",
+      "van-cell": "/wxcomponents/vant/cell/index",
+      "van-submit-bar": "/wxcomponents/vant/submit-bar/index",
+      "van-sticky": "/wxcomponents/vant/sticky/index",
+      "van-image": "/wxcomponents/vant/image/index",
+      "van-goods-action": "/wxcomponents/vant/goods-action/index",
+      "van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
+      "van-goods-action-button": "/wxcomponents/vant/goods-action-button/index"
+    }
+  },
+  "uniIdRouter": {},
+  "tabBar": {
+    "selectedColor": "#f26522", //设置tabBar激活字体颜色
+    "list": [ // 设置tabBar
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/tab_icons/cate.png",
+        "selectedIconPath": "static/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "static/tab_icons/community.png",
+        "selectedIconPath": "static/tab_icons/community-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}
